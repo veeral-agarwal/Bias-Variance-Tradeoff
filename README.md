@@ -243,14 +243,7 @@ plot.title("Bias^2 vs Variance")
 plot.legend()
 ```
 
-
-
-
-
-
-
-
-
+ 
 ![png](output_14_1.png)
 
 
