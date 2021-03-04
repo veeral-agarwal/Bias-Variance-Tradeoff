@@ -254,7 +254,7 @@ plot.legend()
 
 
 
-![png](output_14_1.png)(check report for graph)
+![png](output_14_1.png)
 
 
 ### Analysis:
