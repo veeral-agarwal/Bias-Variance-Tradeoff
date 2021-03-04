@@ -5,7 +5,7 @@ Assignment of Machine Data and Learning  | Spring 2021
 - [Veeral Agarwal](https://github.com/veeral-agarwal)
 - [P.Sahithi Reddy](https://github.com/psahithireddy)
 
-# TASK 1
+# TASK 0
 ### LinearRegression().fit()
 **LinearRegression()** is a estimator that fits the data (training data) using **.fit()** method and constructs the best-fit line or multidimensional model.We can use LinearRegression estimator to fit lines, planes, or hyperplanes to our data.
     This can be extended to fit polynomials.The idea is to take our multidimensional linear model:
