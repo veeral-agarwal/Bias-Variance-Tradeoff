@@ -1,12 +1,8 @@
 # MDL-Assignment-1
 Assignment of Machine Data and Learning  | Spring 2021
 
-## Team
-- [Veeral Agarwal](https://github.com/veeral-agarwal)
-- [P.Sahithi Reddy](https://github.com/psahithireddy)
 
-
-# TASK 0
+## TASK 1
 ### LinearRegression().fit()
 **LinearRegression()** is a estimator that fits the data (training data) using **.fit()** method and constructs the best-fit line or multidimensional model.We can use LinearRegression estimator to fit lines, planes, or hyperplanes to our data.
     This can be extended to fit polynomials.The idea is to take our multidimensional linear model:
@@ -36,7 +32,7 @@ This is still a linear model—the linearity refers to the fact that the coeffic
 
 
 
-# TASK 2
+## TASK 2
 
 
 ### Task 2.2.1
@@ -191,7 +187,7 @@ print(table_bias.to_string(index=False))
    At polynomial hypothesis of degree 1 and 2,bias value is too high and variance is low which indicates the restricted flexibility of the model.At polynomial of degree 3 it suddenly drops to lowest bias and low variance. As polynomial complexity increases the bias value fluctuates between 75-85,and variance show continous rise.But as complexity increases further we see increase in bias value and continous increase in variance which indicates that the model became too complex for simple dataset.
    [More in Further analysis]
 
-# Task 3
+## Task 3
 ### Tabulating irreducible error
 
 
@@ -232,7 +228,7 @@ print(table_bias.to_string(index=False))
                
 
 
-# TASK 4
+## TASK 4
 ### Plotting Bias^2-Variance Graph
 
 
@@ -259,22 +255,21 @@ plot.legend()
 
 
 ### Analysis:
-
 **Underfitting** refers to a model that can neither model the training data nor generalize to new data.Occurs when a function  is too loosely fit.
     
 **Overfitting** is a modeling error that occurs when a function is too closely fit to a limited set of data points. 
 
-   -Initially bias seems to be high and variance seems to be low till model complexity reaches 2.5.Hence we can conclude that for polynomial of degree1 and 2 the model is undergoing underfitting which implies that model is too simple. 
+* Initially bias seems to be high and variance seems to be low till model complexity reaches 2.5.Hence we can conclude that for polynomial of degree1 and 2 the model is undergoing underfitting which implies that model is too simple. 
    
-   -At model complexity 3 bias is low and variance is low, also total error seems to be low too, so we can say that the polynomial of degree 3 may be the best fit for this model.
+* At model complexity 3 bias is low and variance is low, also total error seems to be low too, so we can say that the polynomial of degree 3 may be the best fit for this model.
    
-   -As model complexity increases variance sees a steady increase , bias seems to decrease/remain same for polynomials of degree 3 to 11 ,which indicates that the model is undergoing overfitting,which means the model have fit in too much.
+* As model complexity increases variance sees a steady increase , bias seems to decrease/remain same for polynomials of degree 3 to 11 ,which indicates that the model is undergoing overfitting,which means the model have fit in too much.
    
-   -From model complexity increases further from 12 to 20 we can see that bias starts going up,which suggests we are using too complex polynomial for a simple model,which is also a indication that we can stop increasing complexity and choose from the simpler ones.Note that variance still sees a steady rise.
-   
-   
+* From model complexity increases further from 12 to 20 we can see that bias starts going up,which suggests we are using too complex polynomial for a simple model,which is also a indication that we can stop increasing complexity and choose from the simpler ones.Note that variance still sees a steady rise.
    
    
-   
-=======
+## Team
+- [Veeral Agarwal](https://github.com/veeral-agarwal)
+- [P.Sahithi Reddy](https://github.com/psahithireddy)
 
+========
