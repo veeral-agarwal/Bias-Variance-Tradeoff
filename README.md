@@ -1,6 +1,5 @@
-# MDL-Assignment-1
-Assignment of Machine Data and Learning  | Spring 2021
-
+# Bias Variance Tradeoff
+done as an assignment of Machine Data and Learning course, MDL | Spring 2021
 
 ## TASK 1
 ### LinearRegression().fit()
